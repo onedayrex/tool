@@ -6,6 +6,7 @@ import com.xiaoleilu.hutool.clone.Cloneable;
 /**
  * created by onedayrex
  * 2017/10/21
+ * 方法一，实现Cloneable接口，自己重写clone方法
  **/
 public class User implements Cloneable<User>{
 
